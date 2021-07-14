@@ -118,6 +118,11 @@
     width: 484px;
     height: 213px;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer-menu{
     align-items: center;
     display: flex;
@@ -127,9 +132,19 @@
 .logo-img{
     width: 484px;
     height: 110px;
-    align-items: center;
-    justify-content: center;
-   
     
     
 }
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.social img{
+   
+    margin-right: 10px;  
+    width: 50px;
+    
+}
+
