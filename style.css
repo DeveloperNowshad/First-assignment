@@ -1,13 +1,23 @@
+/* conmebol copa america 2021  */
+.head-container{
+    width: 1404px;
+    height: 650px;
+    background-color: blue;
+    
+}
 /* players details style  */
+
 
 .players-container{
     display: flex;
     justify-content: center;
+    
 }
 .players-details{
     display: flex;
     align-items: flex-start;
     min-width: 1050px;
+    margin: 5%;
 
 }
 
@@ -23,28 +33,28 @@
 .player img{
     width: 100%;
     align-items: center;
-    border-radius: 5%;
     
     
     
 }
 .player{
-    box-shadow: 0px 0px 40px  rgb(8, 8, 8);
+    box-shadow: 0px 0px 40px  rgb(243, 232, 232);
     width: 300px;
     height: 394px;
     text-align: center;
     align-items: center;
     padding: 10px;
     border: 5%;
-    border-radius: 5%;
     margin-right: 15px;
     
 }
 .copa-container{
     width: 1102px;
+    height: 427px;
 }
 .highlights{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 10%;
     width: 1102px;
     margin: 10%;
@@ -73,4 +83,22 @@
     padding: 10px 40px;
     font-size: large;
     margin-bottom:  2%;
+}
+.container{
+    width: 484px;
+    height: 213px;
+}
+.footer-menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-img{
+    height: 0px;
+    width: 0px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
 }
