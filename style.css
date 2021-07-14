@@ -247,7 +247,25 @@ body{
     
 
 }
-
+.sub{
+    position: relative;
+    
+}
+.email{
+    padding: 10px 40px;
+}
+.newsletter{
+    
+    margin-left: 35%;
+    padding: 40px;
+}
+.subs-button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
 
 
 
