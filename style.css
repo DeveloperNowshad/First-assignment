@@ -1,8 +1,5 @@
 /* players details style  */
-main{
-    display: flex;
-    justify-content: center;
-}
+
 .players-container{
     display: flex;
     justify-content: center;
@@ -40,6 +37,40 @@ main{
     padding: 10px;
     border: 5%;
     border-radius: 5%;
-    margin-right: 5%;
+    margin-right: 15px;
     
+}
+.copa-container{
+    width: 1102px;
+}
+.highlights{
+    display: flex;
+    margin-left: 10%;
+    width: 1102px;
+    margin: 10%;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+.all-highlights{
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.font-size{
+    font-size: 2em;
+}
+.cover img{
+    width: 567px;
+    height: 427px;
+    align-items: center;
+    margin-left: 10px;
+}
+.watch-button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 40px;
+    font-size: large;
+    margin-bottom:  2%;
 }
