@@ -49,13 +49,16 @@ body{
 .players-container{
     display: flex;
     justify-content: center;
+    width: 1050px;
+    margin-top: 15px;
+
     
 }
 .players-details{
     display: flex;
     align-items: flex-start;
-    min-width: 1050px;
-    margin: 5%;
+    margin-left: 25%;
+    margin-top: 5%;
 
 }
 
@@ -65,14 +68,13 @@ body{
     grid-row-gap: 30px;
     flex-direction: row;
     padding: 15px;
-    
+    margin: 0px;
     
     
 }
 .player img{
     width: 300px;
     height: 256px;
-    align-items: center;
     padding: 15px;
     
     
@@ -81,7 +83,7 @@ body{
 .player{
     box-shadow: 0px 0px 40px  rgb(243, 232, 232);
     width: 330px;
-    height: 474px;
+    height: 470px;
     text-align: center;
     align-items: center;
     padding: 10px;
@@ -92,12 +94,14 @@ body{
 .copa-container{
     width: 1102px;
     height: 427px;
+    
+    
+    
 }
 .highlights{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 10%;
-    width: 1102px;
     margin: 10%;
     
     
@@ -112,10 +116,11 @@ body{
     font-size: 4em;
 }
 .cover img{
-    width: 567px;
-    height: 427px;
-    align-items: center;
-    margin-left: 10px;
+    width: 430px;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: 10%;
+    
 }
 .watch-button{
     text-decoration: none;
@@ -126,12 +131,12 @@ body{
     margin-bottom:  2%;
     position: relative;
     top: 27px;
-    width: 168px;
-    height: 44px;
+    width: 50px;
+    height: 10px;
 }
-.container{
+/* .container{
     width: 484px;
-    height: 213px;
+    height: 213px; */
 }
 .gallery{
     text-align: center;
@@ -301,3 +306,79 @@ footer{
     width: 50px;
     
 }
+/* ----------------
+     Media Queries
+   ----------------- */
+   /* Mobile Device */
+   @media only screen and (max-width:688px) {
+       body{
+           width: 1440px;
+           height: 100%;
+           /* margin-left: 130%; */
+           
+       }
+       .start-container{
+           height: 1000px;
+           width: 100%;
+           font-size: 7px;
+       }
+       .players-container{
+           margin: 0px;
+          
+
+      
+      
+
+       }
+       .banner img{
+           position: absolute;
+           top: 60%;
+           left: 5%;
+           width: 90% ;
+           height: 50%;
+           
+           
+       }
+       .containerr{
+           
+           display: grid;
+           grid-template-columns: repeat(1, 1fr);
+           padding-left: 285px;
+       }
+       .players{
+           grid-template-columns: repeat(1, 1fr);
+           /* margin-left: 35px; */
+           margin-right: 100px;
+       }
+       .players-details{
+           margin: 0px;
+          
+           
+
+       }
+       .gallery{
+           text-align: center;
+           margin-right: 40%;
+       }
+      .sub{
+           
+          text-align: center;
+       }
+       .newsletter{
+           margin: 0px;
+           margin-right: 40%
+       }
+       .email{
+           /* margin-right: 10%; */
+       }
+      .footer-menu{
+           
+           margin-right: 140%;
+       }
+     
+       
+       /* .start-container .copa-container .container .containerr .subscriber {
+           display: none;
+       } */
+       
+   }
